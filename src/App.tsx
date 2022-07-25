@@ -1,6 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import logo from "./logo.svg";
+
+type Props = {
+  hoge: string;
+};
+
+type CustomProps = {
+  hoge: string;
+};
 
 function App() {
   return (
